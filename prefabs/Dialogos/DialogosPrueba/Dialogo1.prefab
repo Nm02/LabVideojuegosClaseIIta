@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8205736483014383187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4824014667502303014}
+  - component: {fileID: 7523471963486198603}
+  m_Layer: 0
+  m_Name: Dialogo1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4824014667502303014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205736483014383187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7523471963486198603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205736483014383187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847bcb34e6a593448f959e3c35bc976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogos:
+  - Hola
+  - Espero que bien
+  - Como te llamas?
+  TextoOpcion: nadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  Respuestas:
+  - {fileID: -8711949657907589638, guid: d5e8a7e3326bbc045898a7fdc0a234d0, type: 3}
+  - {fileID: 3689722908858843710, guid: 44c4c04cbc6342f4890119f0013d7766, type: 3}
+  - {fileID: -3833321831175548335, guid: 46efaa0e2954d294ebddc2f46659b15a, type: 3}
+  - {fileID: -4471761797577566383, guid: 5cbdf16ee52e19148bb96040d229978d, type: 3}
+  indice: 2
